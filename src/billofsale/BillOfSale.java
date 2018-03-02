@@ -3,6 +3,7 @@
  * BillOfSale.java
  * This program outputs a bill of sale,
  * Based on input for price, amount payed, and tax rate.
+ * Made on 02/03/2018
  */
 
 package billofsale;
