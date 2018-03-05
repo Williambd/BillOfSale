@@ -45,6 +45,9 @@ public class BillOfSale {
         double change = Math.round((paid-total)*100)/100;
         
         //Outputs item price, amount paid, taxes, change, and total in dollars. 
+        System.out.println("Restauraunt Bill");
+        System.out.println("****************");
+        System.out.println();
         System.out.println("Item price: $"+price);
         System.out.println("Amount paid: $"+paid);
         System.out.println("Taxes: $"+tax);
