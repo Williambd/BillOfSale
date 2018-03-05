@@ -27,7 +27,7 @@ public class BillOfSale {
         double price = scanner.nextDouble();
 
         //Requests amount paid by customer 
-        System.out.println("Input amount payed:");
+        System.out.println("Input amount paid:");
         double paid = scanner.nextDouble();
         
         //Requests tax rate percentege then transfers into decimal
@@ -46,8 +46,7 @@ public class BillOfSale {
         
         //Outputs item price, amount paid, taxes, change, and total in dollars. 
         System.out.println("Restauraunt Bill");
-        System.out.println("****************");
-        System.out.println();
+        System.out.println("**************** \n");
         System.out.println("Item price: $"+price);
         System.out.println("Amount paid: $"+paid);
         System.out.println("Taxes: $"+tax);
